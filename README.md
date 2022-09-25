@@ -3,6 +3,8 @@ A Novel Method for Handwritten Digit Recognition System
 
 Institution Name: Sri Venkateswara College of Engineering
 
+Team ID: PNT2022TMID53487
+
 Members List (with Register Number):
   1. Akshaya K B (190801004)
   2. Baraniya S (190801008)
