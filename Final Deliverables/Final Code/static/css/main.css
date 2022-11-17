@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: black;
+	font-family: "Overpass", sans-serif;
+	background-color: rgb(188, 236, 250);
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(188, 236, 250);
+}
+
+.heading {
+	margin-top: -2rem;
+	padding-bottom: 2rem;
+	width: fit-content;
+	text-align: center;
+}
+
+.heading .heading__main {
+	color: rgb(0, 43, 88);
+	font-size: 3rem;
+	font-weight: 550;
+}
+
+.heading .heading__sub {
+	font-size: 1rem;
+	color: rgb(97, 97, 97);
+}
+
+.upload-container {
+	box-shadow: 0 0 20px rgba(111, 183, 35, 0);
+	width: 30rem;
+	height: 15rem;
+	padding: 1.5rem;
+}
+
+.form-wrapper {
+	background-color: rgba(255, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-wrapper #loading {
+	display: none;
+	position: absolute;
+}
+
+.form-wrapper .upload {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15rem;
+	text-align: center;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	border-radius: 6px;
+	color: white;
+	background-color: rgb(36, 113, 255);
+	box-shadow: 0 5px 10px rgb(1, 75, 153);
+}
+
+.form-wrapper .upload #up_btn {
+	display: none;
+}
+
+.form-wrapper .upload label {
+	font-size: 1rem;
+	font-weight: 600;
+	color: white;
+	height: 100%;
+	width: 100%;
+	padding: 15px;
+	display: block;
+}
+
+.form-wrapper .upload svg {
+	height: 15px;
+	width: auto;
+	padding-right: 8px;
+	margin-bottom: -2px;
+}
+
+@media screen and (max-width: 700px) {
+	.upload-container {
+		height: 20rem;
+		width: 18rem;
+		margin-top: 3.5rem;
+		margin-bottom: -8rem;
+	}
+
+	.heading .heading__main {
+		margin-top: -6rem;
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+}
