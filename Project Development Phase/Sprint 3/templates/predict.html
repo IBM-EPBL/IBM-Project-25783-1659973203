@@ -1,0 +1,19 @@
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Handwritten Digit Recognition System</title>
+		<link rel="stylesheet" href="{{url_for('static',filename='css/predict.css')}}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="container"><br><br><br>
+			<h1>We've predicted!</h1>
+			<div class="result-wrapper">
+				<div class="result-container">
+					<div class="value">{{best.0}}</div>
+				</div>				
+			</div>
+			<div class="accuracy"><br>With an accuracy of {{best.1}}%<br></div>
+		</div>
+	</body>
+</html>
